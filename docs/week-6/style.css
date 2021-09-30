@@ -1,0 +1,19 @@
+p{
+  color: red;
+}
+
+
+h1, h2 {
+  font family : Bebas+neue;
+}
+
+
+#hero {
+  width:100vw;
+}
+
+#heroimg {
+  width: 100vw;
+  position:relative;
+  bottom: 100px;
+}
