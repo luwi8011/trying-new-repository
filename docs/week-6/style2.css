@@ -1,0 +1,66 @@
+#quotesection{
+  background-color: #114aa6;
+  margin: 30vh 20vw;
+  padding: 5vh 10vw 5vh 10vw;
+  border-radius: 8px;
+  height: 30vh;
+  position: absolute;
+  top: 15vw;
+  left:20vw;
+}
+
+
+#new{
+  position: absolute;
+  left: 35vw;
+  font-size: 5vw;
+}
+
+
+button{
+
+  background-color: #4CAF50;
+  border-radius: .58vw;
+  box-shadow: .32vw .32vw #3A3B3C;
+  color: white;
+  padding: .97vw 2.08vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .99vw;
+  margin: .3vw .2vw;
+  cursor: pointer;
+}
+
+button:hover{
+  border: #fff solid .15vw;
+}
+
+button:active{
+  color: #c3c6c9;
+}
+
+h1{
+  color: #e8eaed;
+  font-weight: 20vw;
+}
+
+img{
+  position: absolute;
+}
+#qimg{
+  position: absolute;
+}
+
+div{
+  border: .15vw solid black;
+  margin-left: 2vw;
+}
+
+.flexitem{
+  flex-grow: 1;
+}
+
+.flexitem2{
+  flex-grow: 2;
+}

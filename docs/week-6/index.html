@@ -3,31 +3,59 @@
   <head>
     <meta charset="utf-8">
     <title>week 6</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href= "https://fonts.googleapis.com/css?family=Bebas+Neue">
+    <link rel="stylesheet" href="style2.css">
   </head>
   <body>
-<section>
-  <h1>welcome to my site</h1>
-  <img src="hero.jpg" alt="man on mountain"  id="heroimg">
-</section>
+    <img src="/assets/bike (17).jpg" id="qimg" size: 10vw />
+
+    <section id="quotesection">
+    <h1 id="qtext">Welcome the image machine, click the button to get a image.</h1>
+
+    <button id="newquote">New Quote</button>
+    </section>
 
 
-<section>
-  <h2>this is my first section</h2>
-  <p> AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-  <p> yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeetyeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet</p>
-</section>
+    <script>
+      const quotes = ["/assets/bike (0).jpg","/assets/bike (2).jpg","/assets/bike (3).jpg","/assets/bike (4).jpg","/assets/bike (5).jpg","/assets/bike (6).jpg","/assets/bike (7).jpg","/assets/bike (8).jpg","/assets/bike (9).jpg","/assets/bike (10).jpg","/assets/bike (11).jpg","/assets/bike (12).jpg","/assets/bike (13).jpg","/assets/bike (14).jpg","/assets/bike (15).jpg","/assets/bike (16).jpg","/assets/bike (17).jpg","/assets/bike-(18).jpg"];
+      let quotecount = 0;
 
-<section>
-  <h2> this is my second section</h2>
-  <p> AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-  <p> yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeetyeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet yeet</p>
+      document.getElementById("newquote").addEventListener("click", buttonClicked);
 
-</section>
+      function buttonClicked(){
+        console.log(quotes[quotecount]);
+        document.getElementById("qimg").src = quotes[quotecount];
+        if(quotecount>=16){
+          quotecount = 0;
+        }else{
+        quotecount++;
+      }
+      }
 
 
 
+
+
+
+
+    </script>
+
+
+
+
+    <section id= "new">
+
+    <button id="try">Click here</button>
+    <h1 id="text"></h1>
+    <script>
+    document.getElementById("try").addEventListener("click", function(){document.getElementById("text").innerText = "this shit is hard";});
+    </script>
+    </section>
 
   </body>
+
+
+
+
+
+
 </html>

@@ -9,7 +9,7 @@ color: #0F5FA8;
   height: 45vw;
   position: relative;
   bottom: 15vw;
-  border: 2px;
+  border: .25vw;
   border-color: black;
 
 }
@@ -53,21 +53,28 @@ h3{
 .center {
   margin:auto;
   width: 50%;
-  border: 3px solid black;
+  border: .3vw solid black;
   /* padding: 10px; */
 
 }
 
 .button {
   background-color: #4CAF50;
-  border-radius: 9px;
-  box-shadow: 5px 5px #3A3B3C;
+  border-radius: .58vw;
+  box-shadow: .32vw .32vw #3A3B3C;
   color: white;
-  padding: 15px 32px;
+  padding: .97vw 2.08vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: .99vw;
+  margin: .3vw .2vw;
   cursor: pointer;
+}
+button:hover{
+  border: #fff solid .15vw;
+}
+
+button:active{
+  color: #c3c6c9;
 }
