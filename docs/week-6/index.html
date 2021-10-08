@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style2.css">
   </head>
   <body>
-    <img src="/assets/bike (17).jpg" id="qimg" size: 10vw />
+    <img src="assets/bike (17).jpg" id="qimg" size: 10vw />
 
     <section id="quotesection">
     <h1 id="qtext">Welcome the image machine, click the button to get a image.</h1>
@@ -16,7 +16,7 @@
 
 
     <script>
-      const quotes = ["/assets/bike (0).jpg","/assets/bike (2).jpg","/assets/bike (3).jpg","/assets/bike (4).jpg","/assets/bike (5).jpg","/assets/bike (6).jpg","/assets/bike (7).jpg","/assets/bike (8).jpg","/assets/bike (9).jpg","/assets/bike (10).jpg","/assets/bike (11).jpg","/assets/bike (12).jpg","/assets/bike (13).jpg","/assets/bike (14).jpg","/assets/bike (15).jpg","/assets/bike (16).jpg","/assets/bike (17).jpg","/assets/bike-(18).jpg"];
+      const quotes = ["assets/bike (0).jpg","assets/bike (2).jpg","assets/bike (3).jpg","assets/bike (4).jpg","assets/bike (5).jpg","assets/bike (6).jpg","assets/bike (7).jpg","assets/bike (8).jpg","assets/bike (9).jpg","assets/bike (10).jpg","assets/bike (11).jpg","assets/bike (12).jpg","assets/bike (13).jpg","assets/bike (14).jpg","assets/bike (15).jpg","assets/bike (16).jpg","assets/bike (17).jpg","assets/bike-(18).jpg"];
       let quotecount = 0;
 
       document.getElementById("newquote").addEventListener("click", buttonClicked);
@@ -50,6 +50,30 @@
     document.getElementById("try").addEventListener("click", function(){document.getElementById("text").innerText = "this shit is hard";});
     </script>
     </section>
+
+
+
+
+
+
+    <script type="text/javascript">
+      document.getElementById('b1').addEventListener('click',function(){
+        document.body.style.backgroundColor = '#c4c4c4';
+      })
+
+
+        document.getElementById('img1').addEventListener('click',function(){
+          window.alert('clicked over an image');
+        })
+
+function clickimage() {
+  window.alert('image clicked');
+}
+
+// id is for one class is for many
+
+
+    </script>
 
   </body>
 
