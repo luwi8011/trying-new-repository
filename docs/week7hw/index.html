@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>week 6</title>
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <body>
+    <!-- <img src="assets/bike (17).jpg" id="qimg" size: 10vw /> -->
+
+    <section id="quotesection">
+    <h1 id="qtext">This was adapted from my image machine which was adapted from the quote machine we made in class, some artifacts therefor remain.</h1>
+
+    <button id="newquote">New Quote</button>
+    </section>
+
+
+    <script>
+  const quotes = ["in Africa every sixty seconds a minute passes", "when I close my eyes i cant see", "toasters toast but bread doesnt bread", "in 24 hours it will be tomorrow", "Avatar the last airbender is my favorite movie", "cats can yodel"];
+  let quotecount = 0;
+
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+
+    document.getElementById("qtext").innerHTML = quotes[quotecount];
+    if(quotecount>=6){
+      quotecount = 0;
+    }
+    else{
+    quotecount++;
+  }
+
+  }
+
+</script>
+
+
+
+
+    
+
+
+
+
+
+
+    <script type="text/javascript">
+      document.getElementById('b1').addEventListener('click',function(){
+        document.body.style.backgroundColor = '#c4c4c4';
+      })
+
+
+        document.getElementById('img1').addEventListener('click',function(){
+          window.alert('clicked over an image');
+        })
+
+function clickimage() {
+  window.alert('image clicked');
+}
+
+// id is for one class is for many
+
+
+    </script>
+
+  </body>
+
+
+
+
+
+
+</html>

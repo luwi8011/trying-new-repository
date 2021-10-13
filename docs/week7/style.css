@@ -1,0 +1,29 @@
+div{
+  background-color: pink;
+}
+
+#bikes{
+  display: flex;
+}
+
+.options{
+  flex-grow: 1;
+  width: auto;
+  margin: 3vw;
+}
+
+
+img{
+  max-width:30vw;
+  height: 30vw;
+  width: auto;
+  object-fit: cover;
+  /* object-position:  */
+}
+
+button{
+  float: right;
+  padding: 10px 50px;
+  margin-right: 3vw;
+
+}
