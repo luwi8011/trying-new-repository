@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #D17A1D;
+    color: black;
+    font-size: 1vw;
+    overflow: hidden;
+}
+
+#page_header {
+    font-size:2vw;
+    color: #93050;
+    background-color: #451011;
+    margin: -6vh -2vh 0 0;
+    padding: 0rem;
+    text-align: center;
+}
+
+
+#tabs_headers {
+    display: flex;
+    margin: 3rem 10% 0 10%;
+    background-color: black;
+    border: 2vw solid black;
+    border-radius: 1vw;
+
+
+}
+
+.etab_tab {
+    flex-grow: 1;
+    margin-left: 1vw;
+    width: 10vw;
+    border: .01vw solid #AD9F8E;
+    color: black;
+    background-color: #461F1F;
+    text-align: center;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 1vw .5vw rgba(41,41,41,.25);
+}
+
+#tab_bodies {
+    display: flex;
+    border-radius: 1vw;
+    margin: 0vw 10% 3rem 10%;
+    padding: 1rem 1rem 1rem 1rem;
+
+    border: 1px solid #AD9F8E;
+    border-top: none;
+    background-color: #461F1F;
+    color: white;
+    font-size: 3vw;
+    list-style-position: inside;
+    min-height: 40vh;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+img {
+height: 20vw;
+margin-top: 20vh;
+}
+
+.etab_body {
+    flex-grow: 1;
+    width: auto;
+    max-width: 60%;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+.active {
+    border-bottom: none;
+    background-color: #C4C4C4;
+
+    box-shadow: .25vw .25vw .5vw 0px #930505;
+}
