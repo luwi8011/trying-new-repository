@@ -3,12 +3,34 @@
 <html lang="en" dir="ltr">
 
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <meta charset="utf-8"> -->
     <title>Week 1 Hello to Lucas Wilson</title>
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
+
+
+
+
+    <div class="topnav" id="myTopnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="Week-2/index.html">Week 2</a>
+      <a href="week-6/index.htm">Week 6</a>
+      <a href="week7/index.html">Week 7</a>
+      <a href="BIGPROJECT/index.html">Midterm</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+    </div>
+
+
+
+
 
     <section id = "nature">
       <h1 id = "natureText" class = "center">Hello and Welcome to Me</h1>
@@ -27,18 +49,38 @@
 
  <!-- hi -->
 
-   <p> Below are links to weekly homeworks html files</p>
 
-   <a href="Week-2/index.html" class="button">Week 2</a>
-   <a href="week-6/index.html" class="button">Week 6</a>
-   <!-- <a href="week7hw/index.html" class="button">Week 7 hw</a> -->
-   <a href="week7/index.html" class="button">Week 8</a>
 
-   <a href="BIGPROJECT/index.html" class="button">BIG PROJECT</a>
+
+ <div class="flex-container">
+   <div class="flex-item-left">tbh this is only here to show I know how to use responsive flex boxes</div>
+   <div class="flex-item-right">the real hard work went into the fuckin responsive menu at the top of the page</div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
    </section>
 
 
-
+   <script>
+   function myFunction() {
+     var x = document.getElementById("myTopnav");
+     if (x.className === "topnav") {
+       x.className += " responsive";
+     } else {
+       x.className = "topnav";
+     }
+   }
+   </script>
 
 
 

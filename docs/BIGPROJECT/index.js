@@ -13,6 +13,13 @@ let entities = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturda
 
 
 
+
+
+
+
+
+
+
 let entity_list = [
     // monday
     ['shower', 'school', 'homework', 'gym', 'meal prep for the week'],
