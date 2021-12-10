@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel= "stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <a id="home"  href="../index.html" >Home</a>
+    <a id="right" href="../contacts/contact.html">Contact</a>
+    <a id="right" class="active" href="../bikes/bikes.html">Bikes</a>
+    <a id="right" href="../about/about.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="rectangle3"></div>
+  <div class="rectangle2"></div>
+  <div class="rectangle1"></div>
+
+
+<div style="padding-left:16px">
+  <!-- <h2>BIKES</h2> -->
+</div>
+
+<!-- scroll modal below -->
+
+<h2 style="text-align:center">Click on an Image</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="assets/bike (18).JPG" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" alt="assets/bike (18).JPG">
+  </div>
+  <div class="column">
+    <img src="assets/bike (2).JPG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" alt="assets/bike (2).JPG">
+  </div>
+  <div class="column">
+    <img src="assets/bike (3).JPG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" alt="assets/bike (3).JPG">
+  </div>
+  <div class="column">
+    <img src="assets/bike (4).JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" alt="assets/bike (4).JPG">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 18</div>
+      <img src="assets/bike (18).JPG" style="width:100%" alt="assets/bike (18).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 18</div>
+      <img src="assets/bike (2).JPG" style="width:100%" alt="assets/bike (2).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 18</div>
+      <img src="assets/bike (3).JPG" style="width:100%" alt="assets/bike (3).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 18</div>
+      <img src="assets/bike (4).JPG" style="width:100%" alt="assets/bike (4).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 18</div>
+      <img src="assets/bike (5).JPG" style="width:100%" alt="assets/bike (5).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 18</div>
+      <img src="assets/bike (6).JPG" style="width:100%" alt="assets/bike (6).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 18</div>
+      <img src="assets/bike (7).JPG" style="width:100%" alt="assets/bike (7).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 18</div>
+      <img src="assets/bike (8).JPG" style="width:100%" alt="assets/bike (8).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">9 / 18</div>
+      <img src="assets/bike (9).JPG" style="width:100%" alt="assets/bike (9).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">10 / 18</div>
+      <img src="assets/bike (10).JPG" style="width:100%" alt="assets/bike (10).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">11 / 18</div>
+      <img src="assets/bike (11).JPG" style="width:100%" alt="assets/bike (11).JPG">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">12 / 18</div>
+      <img src="assets/bike (12).JPG" style="width:100%" alt="assets/bike (12).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">13 / 18</div>
+      <img src="assets/bike (13).JPG" style="width:100%" alt="assets/bike (13).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">14 / 18</div>
+      <img src="assets/bike (14).JPG" style="width:100%" alt="assets/bike (14).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">15 / 18</div>
+      <img src="assets/bike (15).JPG" style="width:100%" alt="assets/bike (15).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">16 / 18</div>
+      <img src="assets/bike (16).JPG" style="width:100%" alt="assets/bike (16).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">17 / 18</div>
+      <img src="assets/bike (17).JPG" style="width:100%" alt="assets/bike (17).JPG">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">18 / 18</div>
+      <img src="assets/IMG_2018.JPEG" style="width:100%" alt="assets/IMG_2018.JPEG">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (18).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (18).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (2).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (2).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (3).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (3).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (4).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (4).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (5).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (5).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (6).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (6).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (7).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (7).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (8).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (8).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (9).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (9).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (10).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (10).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (11).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (11).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (12).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (12).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (13).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (13).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (14).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (14).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (15).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (15).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/bike (16).JPG" style="width:100%" onclick="currentSlide(1)" alt="assets/bike (17).JPG">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/IMG_2018.JPEG" style="width:100%" onclick="currentSlide(1)" alt="assets/IMG_2018.JPEG">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<p>My first motorcycle was a bicycle frame I cut apart and welded in a Harbor Freight cement mixer engine in junior year of highschool.
+   It was one of the ugliest, most dangerous things I have ever ridden, but holy shit it was fun. <br><br>
+I now work at House of Motorrad, a small motorcycle repair and rental shop here in Boulder, where I am honing my skills and very slowly
+ building out my toolset, both physical and skill wise. <br><br>
+ Some projects you see above include a turbocharged Ninja 500, heavily modified ninja 250, even more heavily modified VTR1000f, an Aprilia Falco,
+  and a street legal YZ450. There are many more bike projects I have worked on and many more to come :) <br><br>
+  Please check out my contact page to reach me about any motorcycle or fabrication related questions or if you just want to say hi.
+<br><br>
+ </p>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src = "index.js"></script>
+
+</body>
+</html>
